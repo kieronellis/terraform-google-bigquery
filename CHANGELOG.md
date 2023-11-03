@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.1.0](https://github.com/terraform-google-modules/terraform-google-bigquery/compare/v7.0.0...v7.1.0) (2023-11-03)
+
+
+### Features
+
+* data_warehouse Add GenAI capabilities  ([#272](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/272)) ([f88f4b5](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/f88f4b53ea5ed8416ed01e7285fa6018ddb8bd0b))
+
+
+### Bug Fixes
+
+* adds a null check for expiration time ([#268](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/268)) ([b7efc4d](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/b7efc4d41ee5cc0ad4b6558dccc1b4696929525f))
+* **deps:** Update Terraform terraform-google-modules/project-factory/google to 14.4 ([#277](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/277)) ([85b9d22](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/85b9d2256c7bdfb44870b725a7c7c2a96f3297a9))
+* update workflow.tftpl ([#266](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/266)) ([405972a](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/405972a27da0c0165b93f83162e4a595ec289263))
+
 ## [7.0.0](https://github.com/terraform-google-modules/terraform-google-bigquery/compare/v6.1.1...v7.0.0) (2023-10-10)
 
 
