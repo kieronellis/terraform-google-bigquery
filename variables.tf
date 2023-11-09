@@ -216,3 +216,13 @@ variable "routines" {
     })),
   }))
 }
+
+variable "iam_members" {
+  description = "The list of IAM members to grant permissions on the dataset."
+  type = list(object({
+    role   = string
+    member = string
+  }))
+  default = []
+}
+
